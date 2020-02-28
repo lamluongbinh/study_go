@@ -10,4 +10,6 @@ func main() {
 	fmt.Println("We will get error, @@, just test by add s = \"lie\" to the code")
 	const a = 10
 	fmt.Println("Remember that number is also can be a const, just like the code above")
+	var b int = 2
+	fmt.Println("Let multiply const and var: 10 x 2 = ", a*b)
 }

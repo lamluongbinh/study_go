@@ -10,4 +10,5 @@ func main() {
 	fmt.Println("I can calculate some boolean like true && false:", true && false)
 	fmt.Println("I can calculate some boolean like true || false:", true || false)
 	fmt.Println("I can calculate some bool ean like !false:", !false)
+	fmt.Println("If i add some string, i will have "+"Added 1 "+"Added 2 ", 3+4, " kg")
 }
