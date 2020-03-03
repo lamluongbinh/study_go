@@ -22,5 +22,4 @@ func main() {
 
 	m2 := map[string]int{"m2key1": 100, "m2key2": 200}
 	fmt.Println("Another way to declare map:", m2)
-
 }
