@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+	fmt.Println("An array has a fixed size, and same type value:")
 	var a [3]int
 	fmt.Println("Empty array", a)
 	a[2] = 10
