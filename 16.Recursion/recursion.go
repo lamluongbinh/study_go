@@ -10,8 +10,7 @@ func recursion(n int) int {
 }
 
 func main() {
-	var a int = 10
+	var a int = 6
 	result := recursion(a)
-	fmt.Println("Recursion of n = 10, n x (n-1) x .... x 1 = ", result)
-
+	fmt.Println("Recursion of n = 6, n x (n-1) x .... x 1 = ", result)
 }
