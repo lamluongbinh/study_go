@@ -16,8 +16,8 @@ func main() {
 	// Example for 2 go process running in different threads
 	var go_duration time.Duration = 400 * time.Millisecond
 	var routine_duration time.Duration = 200 * time.Millisecond
-	go goroutines("Go", go_duration)
-	go goroutines("Routines", routine_duration)
+	go goroutines("Marvel", go_duration)
+	go goroutines("DC", routine_duration)
 	time.Sleep(5 * time.Minute)
 	fmt.Println("Done:")
 }
