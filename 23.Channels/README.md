@@ -13,3 +13,6 @@ We see that at one time, we can just add 1 to channel pipeline
 This is the way how an Buffered Channel work
 
 ![Alt text](channel_3.png?raw=true "Unbuffered Channel Code")
+
+In Buffered channel, we can define the numbers of value we can add to channel pipeline
+
