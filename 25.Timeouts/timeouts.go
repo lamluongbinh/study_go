@@ -36,4 +36,5 @@ func main() {
 	case <-time.After(3 * time.Second):
 		fmt.Println("Func2 timeout")
 	}
+
 }
