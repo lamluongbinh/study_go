@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+   "fmt"
+)
 
-func main(){
-   fmt.Println("My name is Go, Hello Everybody!!!")
+func main () {
+   fmt.Println("Hello, ", "My name is golang")
 }
